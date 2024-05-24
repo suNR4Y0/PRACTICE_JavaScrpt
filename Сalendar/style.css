@@ -1,0 +1,39 @@
+#parent {
+    text-align: center;
+  }
+  #calendar {
+    display: inline-block;
+  }
+  #calendar td, #calendar th {
+    padding: 24px;
+    border: 1px solid rgba(57, 51, 55, 0.514);
+    text-align: center;
+  }
+  
+  #calendar .nav, #calendar .info {
+    text-align: center;
+  }
+  #calendar a {
+    color: rgb(114, 230, 164);
+    font-size: 38px;
+    text-decoration: none;
+  }
+  #calendar a:hover {
+    color: rgb(170, 0, 255);
+  }
+  
+  #calendar .active {
+    color: rgb(188, 126, 230);
+  }
+
+  body {
+    background-color: rgba(4, 8, 31, 0.487);
+  }
+
+  td {
+    background-color:  rgba(255, 255, 255, 0.753);
+  }
+
+  th {
+    background-color: rgba(74, 171, 227, 0.852);
+  }
